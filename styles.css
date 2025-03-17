@@ -34,7 +34,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/Anuel\ aa.jpeg');
+    background-image :url('img/Anuel\ aa.jpeg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -86,7 +86,7 @@ section {
     margin-top: 3rem;
     margin-bottom: 3rem;
     background: url('img/anuel.jpeg') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+        url('img/anuel-removebg-preview.png\ 2') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -109,17 +109,17 @@ h2 {
 }
 
 #galeria {
-    background-color:#0077b6ff;
+    background-color:rgb(242, 246, 247);
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/anuel.jpeg') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/anuel\ a.jpeg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -146,4 +146,11 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
+}
+
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
 }
