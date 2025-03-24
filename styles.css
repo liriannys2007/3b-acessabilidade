@@ -8,7 +8,7 @@
 --azul-claro: #00b4d8ff;
 --branco: rgb(242, 246, 247);
 --non-photo-blue: #90e0efff;
---preto: rgb(0, 0, 0);
+--preto: rgb(181, 25, 25);
     --laranja-claro: #0c0c0c;
 }
 
@@ -109,12 +109,12 @@ h2 {
 }
 
 #galeria {
-    background-color:rgb(242, 246, 247);
+    background-color:rgb(16, 19, 185);
 
 }
 
 .fundo-galeria {
-    background: url('img/anuel.jpeg') bottom right no-repeat;
+    background: url('img/') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
@@ -145,7 +145,7 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #f6feff;
 }
 
 .menu-acessibilidade{
@@ -153,4 +153,18 @@ h2 {
     top: 2rem;
     right: 20px;
     z-index: 1000;
+}
+
+.rotacao-menu{
+      transform: rotate (-90deg);
+      transform-origin: right center;
+      flex-direction: column;
+}
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+
+.apresenta-lista{
+    display: none;
 }
